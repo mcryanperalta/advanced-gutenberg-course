@@ -50,3 +50,47 @@ msgstr ""
 #: blocks/01-gallery/index.js:99
 msgid "Enable / disable lightbox"
 msgstr ""
+
+#: blocks/02-mcblock-data/components/DeleteButton.js:11
+#: blocks/02-mcblock-data/components/DispatchDemo.js:22
+#: blocks/02-mcblock-data/components/WithComposeDemo.js:22
+msgid "X"
+msgstr ""
+
+#: blocks/02-mcblock-data/components/SelectDemo.js:16
+#: blocks/02-mcblock-data/components/SubscribeDemo.js:24
+#: blocks/02-mcblock-data/components/WithSelectDemo.js:23
+msgid "Block Count:"
+msgstr ""
+
+#: blocks/02-mcblock-data/components/SubscribeDemo.js:20
+msgid "subscribe(()=>{})"
+msgstr ""
+
+#: blocks/02-mcblock-data/components/WithSelectDemo.js:19
+msgid "withSelect(()=>{})(WithSelectDemo)"
+msgstr ""
+
+#: blocks/02-mcblock-data/index.js:15
+msgid "MC Data Example"
+msgstr ""
+
+#: blocks/02-mcblock-data/index.js:16
+msgid "A demo of data api select, dispatch, withSelect, withDispatch, compose."
+msgstr ""
+
+#: blocks/02-mcblock-data/index.js:19
+msgid "MC datablock"
+msgstr ""
+
+#: blocks/02-mcblock-data/index.js:20
+msgid "my data"
+msgstr ""
+
+#: blocks/02-mcblock-data/index.js:21
+msgid "starter blocks"
+msgstr ""
+
+#: blocks/02-mcblock-data/index.js:28
+msgid "DATA API EXAMPLE"
+msgstr ""
