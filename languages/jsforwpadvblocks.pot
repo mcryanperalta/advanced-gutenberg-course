@@ -82,3 +82,32 @@ msgstr ""
 #: plugins/02-toc/index.js:19
 msgid "Table of Contents"
 msgstr ""
+
+#: plugins/03-layout-switcher/components/ResetControls.js:21
+#: plugins/03-layout-switcher/components/SwitcherControls.js:37
+msgid "Reset Layout"
+msgstr ""
+
+#: plugins/03-layout-switcher/components/SwitcherControls.js:18
+msgid "Layout Choices"
+msgstr ""
+
+#: plugins/03-layout-switcher/components/SwitcherControls.js:24
+msgid "Hero"
+msgstr ""
+
+#: plugins/03-layout-switcher/components/SwitcherControls.js:30
+msgid "Featured"
+msgstr ""
+
+#: plugins/03-layout-switcher/index.js:24
+msgid "Call to Action"
+msgstr ""
+
+#: plugins/03-layout-switcher/index.js:40
+msgid "Layout Swithcer"
+msgstr ""
+
+#: plugins/03-layout-switcher/index.js:49
+msgid "Layout Switcher"
+msgstr ""
