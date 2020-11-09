@@ -78,3 +78,7 @@ msgstr ""
 #: plugins/01-plugin-sidebar-demo/index.js:23
 msgid "Plugin Sidebar Content"
 msgstr ""
+
+#: plugins/02-toc/index.js:22
+msgid "Mc-Table Of Contents"
+msgstr ""
