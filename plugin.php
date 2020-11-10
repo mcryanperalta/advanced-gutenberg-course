@@ -62,7 +62,13 @@ function _get_plugin_url() {
 include __DIR__ . '/lib/register-scripts.php';
 
 // Register block server side
-include __DIR__ . '/lib/register-blocks.php';
+include __DIR__ . '/lib/block-categories.php';
+
+// Set up Global Setting Option Setting
+include __DIR__ . '/lib/wp-options.php';
+
+// Register REST api Endpoint
+include __DIR__ . '/lib/wp-api-endpoint.php';
 
 // Register block server side
-include __DIR__ . '/lib/block-categories.php';
+include __DIR__ . '/lib/register-blocks.php';

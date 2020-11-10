@@ -71,6 +71,42 @@ msgstr ""
 msgid "Data API Example"
 msgstr ""
 
+#: blocks/03-with-global-setting/Edit.js:108
+msgid "Save"
+msgstr ""
+
+#: blocks/03-with-global-setting/Edit.js:119
+msgid "Please enter a block settings value in the block settings."
+msgstr ""
+
+#: blocks/03-with-global-setting/Edit.js:123
+msgid "Global Setting:."
+msgstr ""
+
+#: blocks/03-with-global-setting/Edit.js:84
+msgid "Block Setting"
+msgstr ""
+
+#: blocks/03-with-global-setting/Edit.js:91
+msgid "Please enter a setting here"
+msgstr ""
+
+#: blocks/03-with-global-setting/index.js:25
+msgid "Set your global settings"
+msgstr ""
+
+#: blocks/03-with-global-setting/index.js:29
+msgid "Global Setting"
+msgstr ""
+
+#: blocks/03-with-global-setting/index.js:30
+msgid "API KEY"
+msgstr ""
+
+#: blocks/03-with-global-setting/index.js:31
+msgid "Admin"
+msgstr ""
+
 #: plugins/01-plugin-sidebar-demo/index.js:19
 msgid "Plugin Sidebar Demo"
 msgstr ""
