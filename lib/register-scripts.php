@@ -2,7 +2,7 @@
 
 namespace Adv_Gutenberg_Courses\Example_Blocks;
 
-$js_dependencies = [ 'wp-plugins', 'wp-element', 'wp-edit-post', 'wp-i18n', 'wp-api-request', 'wp-data', 'wp-components', 'wp-blocks', 'wp-editor', 'wp-compose' ];
+$js_dependencies = [ 'wp-plugins', 'wp-element', 'wp-edit-post', 'wp-i18n', 'wp-api-request', 'wp-data', 'wp-components', 'wp-blocks', 'wp-editor', 'wp-compose','wp-hooks', 'lodash' ];
 
 add_action( 'init', __NAMESPACE__ . '\register_block_assets' );
 /**
@@ -67,6 +67,7 @@ add_action( "enqueue_block_editor_assets", __NAMESPACE__ . '\plugin_assets' );
 function plugin_assets() {
 
 	$plugin_js_path = "/assets/js/plugins.editor.js";
+	$filters_js_path = "/assets/js/filters.editor.js";
 	$plugin_css_path = "/assets/css/plugins.editor.css";
 
 	wp_enqueue_script( 
@@ -74,6 +75,14 @@ function plugin_assets() {
 		_get_plugin_url() . $plugin_js_path,
 		$js_dependencies,
 		filemtime( _get_plugin_directory() . $plugin_js_path ),
+		true	
+	);
+
+	wp_enqueue_script( 
+		"jsforwp-adv-gb-filters-js",
+		_get_plugin_url() . $filters_js_path,
+		$js_dependencies,
+		filemtime( _get_plugin_directory() . $filters_js_path ),
 		true	
 	);
 
