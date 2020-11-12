@@ -17,7 +17,8 @@ function register_blocks() {
     $blocks = [
         "jsforwpadvblocks/gallery",
         "jsforwpadvblocks/data-example",
-        "jsforwpadvblocks/with-global-settings"
+        "jsforwpadvblocks/with-global-settings",
+        "mcblocks/shout-styles"
     ];
 
     // Register each block with same CSS and JS

@@ -123,12 +123,48 @@ msgstr ""
 msgid "Show block global settings"
 msgstr ""
 
-#: filters/extendCodeBlockDemo.js:61
-msgid "Custom Settings"
+#: blocks/04-shoutout-styles/index.js:22
+msgid "Shoutout"
 msgstr ""
 
-#: filters/extendCodeBlockDemo.js:63
-msgid "High Contrast"
+#: blocks/04-shoutout-styles/index.js:23
+msgid "Shoutout Example Styles"
+msgstr ""
+
+#: blocks/04-shoutout-styles/index.js:27
+msgid "shout out"
+msgstr ""
+
+#: blocks/04-shoutout-styles/index.js:28
+msgid "megaphone"
+msgstr ""
+
+#: blocks/04-shoutout-styles/index.js:29
+msgid "call to action"
+msgstr ""
+
+#: blocks/04-shoutout-styles/index.js:52
+msgid "Headline"
+msgstr ""
+
+#: blocks/04-shoutout-styles/index.js:58
+msgid "Shout out text"
+msgstr ""
+
+#: blocks/block-styles.js:13
+msgid "Colorful Quote"
+msgstr ""
+
+#: blocks/block-styles.js:18
+msgid "Default"
+msgstr ""
+
+#: blocks/block-styles.js:23
+msgid "Serious"
+msgstr ""
+
+#: blocks/block-styles.js:28
+msgid "Colorful"
 msgstr ""
 
 #: plugins/01-plugin-sidebar-demo/index.js:19
